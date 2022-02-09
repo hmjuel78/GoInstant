@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'Kayak-light';
+    src: url(../font/Kayak-Sans/Kayak-Sans-Light.otf)
+}
+
+@font-face {
+    font-family: 'Kayak-reg';
+    src: url(../font/Kayak-Sans/Kayak-Sans-Regular.otf)
+}
+
+@font-face {
+    font-family: 'Kayak-bold';
+    src: url(../font/Kayak-Sans/Kayak-Sans-Bold.otf)
+}
+
+/* ================ import font ================ */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Kayak-reg';
+    color: #000000;
+    font-size: 16px;
+}
+
+.heading_two {
+    font-family: 'Kayak-bold';
+    font-size: 44px;
+    color: #303030;
+}
+
+.heading_two span {
+    color: #5fb709;
+}
+
+/* ====== common css ends ====== */
+
+header {
+    padding-top: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .hdr_logo a{
+    font-family: 'Kayak-bold';
+    font-size: 24px;
+    color: #000;
+}
+
+header .hdr_logo a span{
+    color:  #5fb709;;
+}
+
+header .header_item .btn {
+    background: #6ece0f;
+    font-family: 'Kayak-bold';
+    font-size: 14px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 25px;
+    box-shadow: none;
+    outline: none;
+}
+
+header .header_item .btn:hover {
+    background: #fff;
+    color: #5fb709;
+}
+
+.banner {
+    background: url(../images/banner-bg.png) no-repeat center/cover;
+    padding-top: 240px;
+    padding-bottom: 270px;
+}
+
+.banner .banner_content h1 {
+    font-family: 'Kayak-bold';
+    font-size: 44px;
+    color: #000;
+    padding-right: 70px;
+}
+
+.banner .banner_content h1 span {
+    color: #5fb709;
+}
+
+.banner .banner_content a {
+    background: #5fb709;
+    color: #fff;
+    font-family: 'Kayak-bold';
+    font-size: 18px;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 25px;
+    border: 1px solid #5fb709;
+    transition: all linear .2s;
+}
+
+.banner .banner_content a:hover {
+    background: transparent;
+    color: #5fb709;
+}
+
+.abt {
+    padding-bottom: 80px;
+}
+
+.abt .abt_right form {
+    margin-top: 40px;
+}
+
+.abt .abt_right .form-control {
+    width: 100%;
+    max-width: 400px;
+    min-height: 60px;
+    box-shadow: none;
+}
+
+
+.abt .abt_right .form-control:focus {
+    border-color: #5fb709;
+}
+
+
+.abt .abt_right .btn {
+    background: #5fb709;
+    color: #fff;
+    font-family: 'Kayak-bold';
+    font-size: 18px;
+    border: 1px solid #5fb709;
+    padding: 15px 50px;
+}
+
+.abt .abt_right .btn:hover {
+    color: #5fb709;
+    background: transparent;
+
+}
+
+.mob_sec {
+    background: url(../images/mobile_bg.png) no-repeat center/cover;
+    padding-top: 240px;
+    padding-bottom: 200px;
+}
+
+.mob_sec .content_item h2 {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.mob_sec .content_item a {
+    background: #5fb709;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-family: 'Kayak-bold';
+    font-size: 18px;
+    border: 1px solid #5fb709;
+    margin-top: 30px;
+}
+
+.mob_sec .content_item a:hover {
+    color: #5fb709;
+    background: #fff;
+}
+
+.acc {
+    background: url(../images/bgg.png) no-repeat center/cover;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+}
+
+.acc .heading_two {
+    font-size: 36px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+}
+
+.loc {
+    background: url(../images/loca_bg.png) no-repeat center/cover;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.loc .heading_two {
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+
+.app {
+    background: url(../images/app_bg.png) no-repeat center/cover;
+    padding-top: 300px;
+    padding-bottom: 400px;
+    margin-top: -17%;
+}
+
+.app .wave {
+    padding-bottom: 100px;
+    margin-left: -60px;
+}
+
+.app .heading_two {
+    font-size: 40px;
+    padding-right: 66px;
+    padding-top: 16px;
+}
+
+.app .app_store {
+    margin-top: 75px;
+    padding-bottom: 30px;
+}
+
+.app .app_store img {
+    margin-left: 15px;
+}
+
+.app .app_store img:hover {
+    filter: brightness(0.7);
+}
+
+
+
+
+
+.con_top {
+    background: #edeef0;
+    clip-path: polygon(0 24%, 100% 0%, 100% 100%, 0% 100%);
+    padding-top: 280px;
+    margin-top: -14%;
+    padding-bottom: 130px;
+    position: relative;
+}
+
+.con_top::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 2px;
+    height: 300px;
+    background: rgba(38, 38, 38, 0.10);
+
+}
+
+.con_top .top__item h4 {
+    font-family: 'Kayak-bold';
+    font-size: 30px;
+    color: #5fb709;
+    margin-top: 15px;
+}
+
+.con_top .top__item p {
+    font-family: 'Kayak-reg';
+    font-size: 18px;
+    color: #303030;
+    margin-top: 20px;
+}
+
+.con_top .top__item a {
+    font-family: 'Kayak-bold';
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    background: #5fb709;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-top: 16px;
+    border: 1px solid #5fb709;
+}
+
+.con_top .top__item a:hover {
+    background: transparent;
+    color: #5fb709;
+}
+
+.contact {
+    background: #262626;
+    padding-top: 130px;
+}
+
+.contact .contact_innr {
+    border-top: 1px solid #3d3d3d;
+    padding-top: 40px;
+}
+
+.contact .dropdown {
+    position: relative;
+}
+
+.contact .contact_item .btn {
+    font-family: 'Kayak-bold';
+    font-size: 16px;
+    box-shadow: none;
+    border-bottom: 1px solid #3d3d3d;
+    padding-left: 0;
+}
+
+.contact .contact_item .btn img {
+    margin-right: 10px;
+}
+
+.contact .contact_item .btn i {
+    margin-left: 30px;
+    font-size: 11px;
+}
+
+.contact .contact_item .social_icon {
+    margin-top: 30px;
+}
+
+.contact .contact_item .social_icon i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.contact .contact_item p {
+    font-family: 'Kayak-light';
+    font-size: 17px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.contact .contact_item p span {
+    display: block;
+}
+
+.contact .contact_item.dis {
+    display: flex;
+}
+
+.contact .contact_item.dis ul {
+    margin-right: 60px;
+}
+
+.contact .contact_item.dis ul li a {
+    font-family: 'Kayak-light';
+    font-size: 17px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.contact .contact_item.dis ul li a:hover {
+    color: #5fb709;
+}
+
+
+.contact .contact_item h4 {
+    font-family: 'Kayak-reg';
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contact .last_item img {
+    margin-right: 20px;
+}
+
+.contact .footer_btm p {
+    color: rgba(255, 255, 255, 0.2);
+    font-family: 'Kayak-light';
+    font-size: 17px;
+}

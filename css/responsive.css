@@ -1,0 +1,357 @@
+/* ==================================================================
+ 	for extra small device 
+ ===================================================================== */
+@media (max-width: 575.98px) {
+
+    .heading_two {
+        font-size: 33px;
+    }
+
+    header {
+        padding-top: 30px;
+    }
+
+    .banner {
+        padding-top: 130px;
+    }
+
+    .banner .banner_content h1 {
+        font-size: 30px;
+        padding-right: 0;
+    }
+
+    .abt {
+        padding-bottom: 0;
+    }
+
+    .abt .abt_right .btn {
+        margin-top: 20px;
+    }
+
+    .mob_sec .content_item h2 {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+
+    .mob_sec .content_right {
+        margin-top: 50px;
+    }
+
+    .acc {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .acc .heading_two {
+        padding-right: 0;
+        font-size: 30px;
+    }
+
+    .loc {
+        padding-bottom: 150px;
+    }
+
+    .loc .heading_two {
+        font-size: 30px;
+        padding-top: 165px;
+    }
+
+    .loc .content_item img {
+        margin-top: 50px;
+    }
+
+    .app {
+        padding-bottom: 180px;
+        margin-top: -66%;
+    }
+
+    .app .wave {
+        padding-bottom: 70px;
+        margin-left: 0;
+    }
+
+    .app .heading_two {
+        padding-right: 0;
+        font-size: 31px;
+
+    }
+
+    .app .app_store img {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .con_top::before {
+        display: none;
+    }
+
+    .con_top {
+        clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0% 100%);
+        padding-top: 120px;
+        margin-top: -37%;
+        padding-bottom: 0;
+    }
+
+    .con_top .top__item {
+        margin-bottom: 50px;
+    }
+
+    .con_top .top__item h4 {
+        font-size: 28px;
+    }
+
+    .contact {
+        padding-top: 70px;
+    }
+
+    .contact .contact_item {
+        margin-bottom: 40px;
+    }
+
+    .contact .last_item img {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+/* ==================================================================
+ 	for small device 
+ ===================================================================== */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .heading_two {
+        font-size: 36px;
+    }
+
+    header {
+        padding-top: 30px;
+    }
+
+    .banner {
+        padding-top: 130px;
+    }
+
+    .banner .banner_content h1 {
+        font-size: 36px;
+        padding-right: 0;
+    }
+
+    .abt {
+        padding-bottom: 0;
+    }
+
+    .abt .abt_right .btn {
+        margin-top: 20px;
+    }
+
+    .mob_sec .content_item .img {
+        text-align: left !important;
+    }
+
+    .mob_sec .content_item h2 {
+        font-size: 32px;
+        margin-top: 50px;
+    }
+
+    .mob_sec .content_right {
+        margin-top: 50px;
+    }
+
+    .acc {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .acc .heading_two {
+        padding-right: 0;
+        font-size: 32px;
+        padding-bottom: 50px;
+    }
+
+    .loc {
+        padding-top: 90px;
+    }
+
+    .loc .heading_two {
+        font-size: 36px;
+    }
+
+    .loc .content_item img {
+        margin-top: 50px;
+    }
+
+    .app {
+        margin-top: -66%;
+    }
+
+    .app .wave {
+        padding-bottom: 70px;
+        margin-left: 0;
+    }
+
+    .app .heading_two {
+        padding-right: 55px;
+        font-size: 32px;
+
+    }
+
+    .app .app_store img {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .con_top::before {
+        display: none;
+    }
+
+    .con_top {
+        clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0% 100%);
+        padding-top: 180px;
+        margin-top: -37%;
+        padding-bottom: 70px;
+    }
+
+    .con_top .top__item {
+        margin-bottom: 50px;
+    }
+
+    .con_top .top__item h4 {
+        font-size: 28px;
+    }
+
+    .contact {
+        padding-top: 90px;
+    }
+
+    .contact .contact_item {
+        margin-bottom: 40px;
+    }
+
+    .contact .last_item img {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+/* ==================================================================
+ 	for medium device 
+ ===================================================================== */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .heading_two {
+        font-size: 32px;
+    }
+
+
+    .banner {
+        padding-top: 140px;
+    }
+
+    .abt {
+        padding-bottom: 0;
+    }
+
+    .abt .abt_left img {
+        margin-top: 120px;
+    }
+
+    .abt .abt_right .btn {
+        margin-top: 30px;
+    }
+
+    .mob_sec {
+        padding-top: 190px;
+        padding-bottom: 130px;
+
+    }
+
+    .mob_sec .content_item .img {
+        text-align: left !important;
+    }
+
+    .mob_sec .content_item h2 {
+        margin-top: 50px;
+        font-size: 33px;
+    }
+
+    .acc {
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+
+    .acc .heading_two {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .loc {
+        padding-top: 160px;
+        padding-bottom: 150px;
+    }
+
+    .loc .heading_two {
+        font-size: 32px;
+    }
+
+    .app {
+        padding-top: 230px;
+        padding-bottom: 270px;
+        margin-top: -23%;
+    }
+
+    .con_top {
+        padding-top: 200px;
+        margin-top: -17%;
+        clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .contact {
+        padding-top: 80px;
+    }
+
+    .contact .contact_item {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+/* ==================================================================
+ 	for large device 
+ ===================================================================== */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .abt .abt_right .btn {
+        margin-top: 30px;
+    }
+
+    .app {
+        margin-top: -22%;
+    }
+
+    .con_top {
+        clip-path: polygon(0 16%, 100% 0%, 100% 100%, 0% 100%);
+        margin-top: -16%;
+    }
+}
+
+/* for xl device */
+/* ====================== */
+
+@media (min-width: 1200px) {
+    .app {
+	margin-top: -19%;
+}
+    .con_top {
+        clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+        margin-top: -15%;
+    }
+}
